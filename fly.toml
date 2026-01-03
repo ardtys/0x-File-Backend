@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for 0xfile on 2025-12-21T06:55:35Z
+# fly.toml app configuration file generated for 0x-file-backend on 2026-01-03T10:33:39Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = '0xfile'
+app = '0x-file-backend'
 primary_region = 'sin'
 
 [build]
