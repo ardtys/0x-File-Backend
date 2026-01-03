@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm --version:*)",
+      "Bash(pnpm install:*)",
+      "Bash(test:*)",
+      "Bash(docker:*)",
+      "Bash(pnpm dev:packages:*)",
+      "Bash(timeout /t 10)",
+      "Bash(cargo install:*)",
+      "Bash(pnpm run dev)",
+      "Bash(ping:*)",
+      "Bash(cargo run:*)",
+      "Bash(curl:*)",
+      "Bash(pnpm run build:*)",
+      "Bash(dir:*)",
+      "Bash(timeout /t 5)",
+      "Bash(powershell -Command \"\\(Get-Content ''C:\\\\Users\\\\Daffa\\\\OneDrive\\\\Desktop\\\\ghostfile\\\\packages\\\\frontend\\\\src\\\\app.css'' | Measure-Object -Line\\).Lines\")"
+    ]
+  }
+}
