@@ -15,7 +15,11 @@
       "Bash(pnpm run build:*)",
       "Bash(dir:*)",
       "Bash(timeout /t 5)",
-      "Bash(powershell -Command \"\\(Get-Content ''C:\\\\Users\\\\Daffa\\\\OneDrive\\\\Desktop\\\\ghostfile\\\\packages\\\\frontend\\\\src\\\\app.css'' | Measure-Object -Line\\).Lines\")"
+      "Bash(powershell -Command \"\\(Get-Content ''C:\\\\Users\\\\Daffa\\\\OneDrive\\\\Desktop\\\\ghostfile\\\\packages\\\\frontend\\\\src\\\\app.css'' | Measure-Object -Line\\).Lines\")",
+      "Bash(fly secrets set:*)",
+      "Bash(fly apps list:*)",
+      "Bash(fly status:*)",
+      "Bash(fly logs:*)"
     ]
   }
 }

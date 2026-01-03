@@ -6,7 +6,7 @@ echo "========================================"
 echo ""
 
 echo "[1/5] Setting Redis Secret with TLS..."
-fly secrets set REDIS="rediss://default:AWRAAAIncDFhYmI3M2RkMzgxNDk0YzNiOWM2NzMxOTg1NzYwMTAzY3AxMjU2NjQ@together-liger-25664.upstash.io:6379" --app 0xfile
+fly secrets set REDIS="rediss://default:ATywAAIncDIwNTk2ODJjNmNmYTg0OTczYjEzZTdiMjJkOGFkMzAwOHAyMTU1MzY@flying-crappie-15536.upstash.io:6379" --app 0xfile
 if [ $? -ne 0 ]; then
     echo "ERROR: Failed to set REDIS secret"
     exit 1
